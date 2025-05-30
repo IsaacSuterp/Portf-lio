@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Desenvolvedor Criativo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo"><a href="#">SeuNome.</a></div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Olá, eu sou [Seu Nome]</h1>
+            <h2>Desenvolvedor Full-Stack Criativo & Inovador</h2>
+            <p>Transformando ideias complexas em soluções digitais elegantes e performáticas para web e mobile.</p>
+            <a href="#projetos" class="cta-button">Veja meus Projetos</a>
+        </div>
+        <div class="hero-background-animation">
+            </div>
+    </header>
+
+    <section id="sobre" class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="sobre-content">
+            <div class="sobre-texto">
+                <h3>Minha Jornada na Tecnologia</h3>
+                <p>Desde cedo, fui fascinado por como a tecnologia pode moldar o futuro e resolver problemas reais. Minha paixão por programação começou com [sua primeira experiência/linguagem] e desde então tenho me dedicado a aprender e construir soluções inovadoras.</p>
+                <p>Sou um desenvolvedor [sua especialidade, ex: Full-Stack] com foco em criar interfaces de usuário intuitivas, sistemas backend robustos e experiências digitais que realmente cativem. Acredito na colaboração, no aprendizado contínuo e em entregar software de alta qualidade.</p>
+                <p>Fora do código, gosto de [seus hobbies ou interesses], o que me ajuda a trazer uma perspectiva criativa para meus projetos.</p>
+                <div class="sobre-links">
+                    <a href="link-do-seu-linkedin" target="_blank" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="link-do-seu-github" target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="sobre-imagem">
+                <img src="https://via.placeholder.com/350x350/00A9E0/121212?text=Sua+Foto+Aqui" alt="Foto de [Seu Nome]">
+                </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="container">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projetos-grid">
+            <div class="projeto-card">
+                <img src="https://via.placeholder.com/400x250/00F5A0/121212?text=Projeto+1" alt="Nome do Projeto 1">
+                <div class="projeto-info">
+                    <h3>Nome do Projeto 1</h3>
+                    <p>Breve descrição do projeto, seus objetivos e o impacto que ele causou. Destaque as principais funcionalidades.</p>
+                    <div class="projeto-tags">
+                        <span>React</span><span>Node.js</span><span>MongoDB</span>
+                    </div>
+                    <div class="projeto-links">
+                        <a href="#" target="_blank">Ver Projeto</a>
+                        <a href="#" target="_blank">Repositório</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto-card">
+                <img src="https://via.placeholder.com/400x250/00A9E0/121212?text=Projeto+2" alt="Nome do Projeto 2">
+                <div class="projeto-info">
+                    <h3>Nome do Projeto 2</h3>
+                    <p>Outro projeto interessante, explicando o problema que ele resolve e as tecnologias chave utilizadas.</p>
+                    <div class="projeto-tags">
+                        <span>Vue.js</span><span>Firebase</span><span>UX/UI</span>
+                    </div>
+                    <div class="projeto-links">
+                        <a href="#" target="_blank">Ver Projeto</a>
+                        <a href="#" target="_blank">Repositório</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto-card">
+                <img src="https://via.placeholder.com/400x250/FF7F50/121212?text=Projeto+3" alt="Nome do Projeto 3">
+                <div class="projeto-info">
+                    <h3>Nome do Projeto 3</h3>
+                    <p>Um projeto desafiador que demonstre suas habilidades em resolver problemas complexos ou usar tecnologias específicas.</p>
+                    <div class="projeto-tags">
+                        <span>Python</span><span>Django</span><span>AWS</span>
+                    </div>
+                    <div class="projeto-links">
+                        <a href="#" target="_blank">Ver Projeto</a>
+                        <a href="#" target="_blank">Repositório</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="container">
+        <h2 class="section-title">Minhas Habilidades</h2>
+        <div class="habilidades-categorias">
+            <div class="habilidade-categoria">
+                <h3>Frontend</h3>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML5</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS3 (Flexbox, Grid)</li>
+                    <li><i class="fab fa-js-square"></i> JavaScript (ES6+)</li>
+                    <li><i class="fab fa-react"></i> React.js</li>
+                    <li><i class="fab fa-vuejs"></i> Vue.js (Básico)</li>
+                    <li><i class="fab fa-sass"></i> Sass/SCSS</li>
+                </ul>
+            </div>
+            <div class="habilidade-categoria">
+                <h3>Backend</h3>
+                <ul>
+                    <li><i class="fab fa-node-js"></i> Node.js</li>
+                    <li><i class="fab fa-python"></i> Python (Django/Flask)</li>
+                    <li><i class="fas fa-database"></i> SQL (PostgreSQL, MySQL)</li>
+                    <li><i class="fas fa-database"></i> NoSQL (MongoDB, Firebase)</li>
+                    <li><i class="fas fa-server"></i> APIs RESTful</li>
+                </ul>
+            </div>
+            <div class="habilidade-categoria">
+                <h3>Ferramentas & Outros</h3>
+                <ul>
+                    <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                    <li><i class="fab fa-docker"></i> Docker</li>
+                    <li><i class="fas fa-cloud"></i> AWS (Básico)</li>
+                    <li><i class="fas fa-terminal"></i> Linha de Comando</li>
+                    <li><i class="fas fa-mobile-alt"></i> Design Responsivo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="contato-subtitulo">Estou sempre aberto a novas oportunidades e colaborações. Vamos conversar!</p>
+        <form class="contato-form">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Enviar Mensagem</button>
+        </form>
+        <div class="contato-alternativas">
+            <p>Ou me encontre por aqui:</p>
+            <a href="mailto:seuemail@example.com" class="social-link"><i class="fas fa-envelope"></i> seuemail@example.com</a>
+            <a href="link-do-seu-linkedin" target="_blank" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> [Seu Nome]. Todos os direitos reservados.</p>
+        <p>Feito com <i class="fas fa-heart" style="color: #00A9E0;"></i> e código.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        // Script do menu mobile
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenu.querySelector('i').classList.toggle('fa-bars');
+            mobileMenu.querySelector('i').classList.toggle('fa-times');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    mobileMenu.querySelector('i').classList.add('fa-bars');
+                    mobileMenu.querySelector('i').classList.remove('fa-times');
+                }
+            });
+        });
+        
+        // Atualizar ano no footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // ===== SCROLL REVEAL CONFIG =====
+        if (typeof ScrollReveal !== 'undefined') {
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 1000,
+                delay: 200,
+                opacity: 0,
+                scale: 0.9,
+                easing: 'cubic-bezier(0.5, 0, 0, 1)',
+                reset: false 
+            });
+
+            sr.reveal('.hero-content h1', {});
+            sr.reveal('.hero-content h2', { delay: 400 });
+            sr.reveal('.hero-content p', { delay: 600, origin: 'bottom' });
+            sr.reveal('.hero-content .cta-button', { delay: 800, origin: 'bottom', scale: 1 });
+            sr.reveal('.section-title', { origin: 'left', distance: '80px' });
+            sr.reveal('.sobre-texto p', { origin: 'left', interval: 200 });
+            sr.reveal('.sobre-texto .social-link', { origin: 'bottom', interval: 200, scale: 1 });
+            sr.reveal('.sobre-imagem img', { origin: 'right', scale: 1 });
+            sr.reveal('.projeto-card', { origin: 'bottom', interval: 200, scale: 1 });
+            sr.reveal('.habilidade-categoria', { origin: 'bottom', interval: 150, scale: 1 });
+            sr.reveal('.contato-subtitulo', {});
+            sr.reveal('.form-group', { origin: 'left', interval: 100 });
+            sr.reveal('.contato-form .cta-button', { origin: 'bottom', scale: 1 });
+            sr.reveal('.contato-alternativas', { origin: 'bottom', delay: 500, scale: 1 });
+        } else {
+            console.warn('ScrollReveal library not loaded.');
+        }
+
+        // ===== VALIDAÇÃO DO FORMULÁRIO DE CONTATO =====
+        const contatoForm = document.querySelector('.contato-form');
+
+        if (contatoForm) {
+            contatoForm.addEventListener('submit', function(event) {
+                event.preventDefault(); 
+
+                let isValid = true;
+                const nomeInput = document.getElementById('nome');
+                const emailInput = document.getElementById('email');
+                const mensagemInput = document.getElementById('mensagem');
+
+                clearErrors();
+
+                if (nomeInput.value.trim() === '') {
+                    isValid = false;
+                    showError(nomeInput, 'Por favor, preencha seu nome.');
+                }
+
+                if (emailInput.value.trim() === '') {
+                    isValid = false;
+                    showError(emailInput, 'Por favor, preencha seu email.');
+                } else if (!isValidEmail(emailInput.value.trim())) {
+                    isValid = false;
+                    showError(emailInput, 'Por favor, insira um email válido.');
+                }
+
+                if (mensagemInput.value.trim() === '') {
+                    isValid = false;
+                    showError(mensagemInput, 'Por favor, escreva uma mensagem.');
+                }
+
+                if (isValid) {
+                    alert('Mensagem enviada com sucesso! (Simulação)');
+                    contatoForm.reset(); 
+                }
+            });
+        }
+
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        function showError(inputElement, message) {
+            inputElement.classList.add('error-input');
+            const formGroup = inputElement.parentElement;
+            const errorElement = document.createElement('p');
+            errorElement.className = 'error-message';
+            errorElement.textContent = message;
+            formGroup.appendChild(errorElement);
+        }
+
+        function clearErrors() {
+            document.querySelectorAll('.error-message').forEach(msg => msg.remove());
+            document.querySelectorAll('.error-input').forEach(input => input.classList.remove('error-input'));
+        }
+    </script>
+</body>
+              </html>
